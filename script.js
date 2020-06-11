@@ -45,8 +45,6 @@ function genPage() {
     }
 }
 
-
-
 // function to save data to localstorage
 function saveItem(event) {
     event.preventDefault();
