@@ -21,10 +21,8 @@ function genPage() {
         `
         <tr>
             <th class="text-right" scope="row">${scheduleTime[idx]}</th>
-            <td class="align-middle"><form>
-                <div class="form-group">
-                    <input type="text" class="form-control task${idx}" id="" placeholder="" value="${savedSchedule[idx] ? savedSchedule[idx] : ``}">
-                </div>
+            <td class="align-middle">   
+                <input type="text" class="form-control task${idx}" id="" placeholder="" value="${savedSchedule[idx] ? savedSchedule[idx] : ``}">      
             </td>
             <td class="align-middle text-right">
               <div class="btn-group" style="">
