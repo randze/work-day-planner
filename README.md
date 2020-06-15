@@ -10,7 +10,7 @@ A simple work day planner using localstorage and Moment.js.
 - Refactoring code
 - Live color coding without refresh
 
-## Authors and acknowledgment
+## Acknowledgments
 Library used to work with date and time
 [Moment.js](https://momentjs.com/)
 
